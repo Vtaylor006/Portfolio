@@ -1,0 +1,68 @@
+
+
+p {
+    color: #795858;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 47%;
+    line-height: 0.4;
+
+}
+
+ul {
+    font-size: 20px;
+
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+}
+
+.me {
+    width: 440px;
+    height: 415px;
+    margin-left: 180px;
+    margin-top: 150px;
+    object-fit: cover;
+    border: 10px solid;
+    border-radius: 4px;
+    float: left;
+    left: 180px;
+    border-radius: 100%
+}
+
+.doodle {
+    width: 450px;
+    height: 375px;
+    margin-left: 180px;
+    margin-top: 20px;
+    float: right;
+
+}
+
+
+.title {
+    text-align: left;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 50%;
+    line-height: 1;
+
+}
+
+h1 {
+    background-image: url(https://media.giphy.com/media/xTiTnkZoCSqp3Dn6yk/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 80px;
+    -webkit-text-stroke: 0.1px #292929;
+font-family: 'Caveat Brush', cursive;
+}
