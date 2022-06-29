@@ -13,6 +13,25 @@ html, body {
   font-size: .88rem;
 }
 
+nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+    }
+      nav  li {
+      float: left;
+    }
+
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 12px;
+      text-decoration: none;
+    }
+
 .content-width {
   width: 86%;
   height: 100vh;

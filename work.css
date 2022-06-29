@@ -1,6 +1,26 @@
 body {
     font-family: 'News Cycle', sans-serif;
 }
+
+nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+    font-size: 20px;
+    }
+      nav  li {
+      float: left;
+    }
+
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 12px;
+      text-decoration: none;
+    }
 .wrap {
       overflow: hidden;
       margin: 10px;
