@@ -24,6 +24,8 @@ nav {
 .wrap {
       overflow: hidden;
       margin: 10px;
+  display: flex; 
+                justify-content: space-around; 
     }
     .box {
       float: left;
@@ -95,11 +97,19 @@ nav {
       }
     }
 h1{
-  font-size: 130px;
+  font-size: 115px;
     font-family: 'News Cycle', sans-serif;
+  line-height: 1.7px;
 
 }
 p { 
   color:gray;
 font-size:15px;
+}
+h2{
+  font-size: 50px;
+    font-family: 'News Cycle', sans-serif;
+  line-height: 0.2px;
+  float:left;
+
 }
