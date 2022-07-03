@@ -97,7 +97,7 @@ nav {
 .item-description {
     font-family: 'Fira Mono', monospace;
   position: absolute;
-  top: 150px;
+  top: 50px;
   right: 0;
   width: 50%;
   padding-right: 4%;
@@ -108,7 +108,7 @@ nav {
 /* Staggered Vertical Items ------------------------------------------------------*/
 .item-header {
   position: absolute;
-  top: 50px;
+  top: 0px;
   left: -1.8%;
   z-index: 100;
       -webkit-text-stroke: 1px white;
@@ -174,4 +174,7 @@ font-family: 'Caveat Brush', cursive;
 ul{
   font-size: 20px;
 
+}
+doodle.{
+  left: 30;
 }

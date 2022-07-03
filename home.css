@@ -1,13 +1,15 @@
+.deco{
+  display: flex;
+  align-items: center;
+}
+
 img {
     width: 440px;
     height: 415px;
     object-fit: cover;
     border: 10px solid;
-    border-radius: 4px;
-    float: right;
-    margin-right: 180px;
+    margin-right: 60px;
     font-size: 18px;
-    border-radius: 8%
 }
 
 
@@ -95,10 +97,7 @@ h2 {
 /**
 *the end of the buttons style code
 **/
-body {
-    font-family: 'News Cycle', sans-serif;
-    background-color: white
-}
+
 
 :after {
     padding: 0;
@@ -117,6 +116,7 @@ body {
     height: 30px;
     padding: 30px 30px;
     display: flex;
+    width: 100%;
 }
 
 .Words {
@@ -177,10 +177,12 @@ span {
 :after {
     box-sizing: border-box;
 }
-
-body {
-    background-color: white;
-    color: #011a32;
+  body {
+    font-family: 'News Cycle', sans-serif;
+  background-image:url(7BE76AB6-9639-465B-A242-275CC95F732D.JPEG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #011a32;
     text-align: center;
 }
 
